@@ -10,6 +10,7 @@ type LinkPreview struct {
 	NextUpdate       DateString        `json:"nextUpdate"`
 	ContentType      ContentType       `json:"contentType"`
 	MimeType         string            `json:"mimeType"`
+	Size             int64             `json:"size"`
 	Redirected       bool              `json:"redirected"`
 	RedirectionURL   string            `json:"redirectionUrl,omitempty"`
 	RedirectionCount int64             `json:"redirectionCount,omitempty"`

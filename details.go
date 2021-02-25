@@ -2,21 +2,19 @@ package peekalink
 
 // YouTubeLinkDetails contains additional information about a YouTube link.
 type YouTubeLinkDetails struct {
-	VideoID      string     `json:"videoId,omitempty"`
-	Duration     string     `json:"duration,omitempty"`
-	ViewCount    int64      `json:"viewCount,omitempty"`
-	LikeCount    int64      `json:"likeCount,omitempty"`
-	DislikeCount int64      `json:"dislikeCount,omitempty"`
-	CommentCount int64      `json:"commentCount,omitempty"`
-	PublishedAt  DateString `json:"publishedAt,omitempty"`
+	VideoID        string `json:"videoId,omitempty"`
+	Duration       string `json:"duration,omitempty"`
+	YTViewCount    int64  `json:"viewCount,omitempty"`
+	YTLikeCount    int64  `json:"likeCount,omitempty"`
+	YTDislikeCount int64  `json:"dislikeCount,omitempty"`
+	YTCommentCount int64  `json:"commentCount,omitempty"`
 }
 
 // TwitterLinkDetails contains additional information about a tweet.
 type TwitterLinkDetails struct {
-	StatusID     string     `json:"statusId,omitempty"`
-	RetweetCount int64      `json:"retweetCount,omitempty"`
-	LikesCount   int64      `json:"likesCount,omitempty"`
-	PublishedAt  DateString `json:"publishedAt,omitempty"`
+	StatusID          string `json:"statusId,omitempty"`
+	RetweetCount      int64  `json:"retweetCount,omitempty"`
+	TwitterLikesCount int64  `json:"likesCount,omitempty"`
 }
 
 // LinkDetailType specifies the kind of the information contained in the link
@@ -38,4 +36,6 @@ type LinkDetails struct {
 
 	*YouTubeLinkDetails
 	*TwitterLinkDetails
+
+	PublishedAt DateString `json:"publishedAt,omitempty"`
 }
