@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    name: Test and Build
+    name: Unit tests
     runs-on: ubuntu-latest
 
     steps:
@@ -27,4 +27,4 @@ jobs:
     - name: Run Tests
       run: go test -v ./...
       env:
-        PEEKALINK_API_URL: ${{ secrets.PEEKALINK_API_URL }}
+        PEEKALINK_API_KEY: ${{ secrets.PEEKALINK_API_KEY }}
