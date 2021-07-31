@@ -7,7 +7,7 @@ This Go package is an API client for the [Peekalink][peekalink-url] service.
 **1. Get the module:**
 
 ```
-go get github.com/ankida/go-peekalink
+go get github.com/jozsefsallai/go-peekalink
 ```
 
 **2. Import it:**
@@ -16,7 +16,7 @@ go get github.com/ankida/go-peekalink
 package main
 
 import (
-  "github.com/ankida/go-peekalink"
+  "github.com/jozsefsallai/go-peekalink"
 )
 ```
 
@@ -75,5 +75,5 @@ usage quota**.
 This Go module is licensed under the MIT license.
 
 [peekalink-url]: https://peekalink.io
-[docs-url]: https://pkg.go.dev/github.com/ankida/go-peekalink
+[docs-url]: https://pkg.go.dev/github.com/jozsefsallai/go-peekalink
 [style-guide]: https://golang.org/doc/effective_go

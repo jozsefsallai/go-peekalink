@@ -9,7 +9,7 @@
 // 	package main
 //
 // 	import (
-// 		"github.com/ankida/go-peekalink"
+// 		"github.com/jozsefsallai/go-peekalink"
 // 	)
 //
 // 	func main() {

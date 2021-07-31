@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ankida/go-peekalink"
+	"github.com/jozsefsallai/go-peekalink"
 )
 
 func TestNewClient(t *testing.T) {

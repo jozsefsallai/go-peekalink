@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ankida/go-peekalink"
+	"github.com/jozsefsallai/go-peekalink"
 )
 
 func TestLinkErrorString(t *testing.T) {

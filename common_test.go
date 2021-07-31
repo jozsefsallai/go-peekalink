@@ -3,7 +3,7 @@ package peekalink_test
 import (
 	"testing"
 
-	"github.com/ankida/go-peekalink"
+	"github.com/jozsefsallai/go-peekalink"
 )
 
 func TestDateString(t *testing.T) {

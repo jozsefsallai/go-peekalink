@@ -1,3 +1,3 @@
-module github.com/ankida/go-peekalink
+module github.com/jozsefsallai/go-peekalink
 
 go 1.15
